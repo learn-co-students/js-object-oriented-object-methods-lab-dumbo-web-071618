@@ -16,6 +16,7 @@ function boardMembers(name, homestate, training) {
     "You will see great things from Scuber."
   }
   this.sayHi = function() {
-    `Hi, my name is ${name}. I am from ${homestate}, and I was trained in ${training}.`
+    `Hi, my name is ${this.name}. I am from ${this.homestate}, and I was trained in ${this.training}.`
+    //have to do ${this.method}, not just ${method}
   }
 }
