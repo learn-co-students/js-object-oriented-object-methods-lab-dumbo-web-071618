@@ -17,7 +17,7 @@ describe('boardMembers', function() {
 
   describe('veto()', function() {
     it('returns "No, I must disagree"', function() {
-      expect(polishedBoardMember.veto()).to.equal("No, I must disagree")
+      expect(polishedBoardMember.veto()).to.equal("No, I must disagree.")
     })
   })
 
@@ -45,4 +45,3 @@ describe('boardMembers', function() {
     })
   })
 })
-
